@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_Student.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Student"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="DOB">
+        <Label Content="Sooner ID:" HorizontalAlignment="Left" Margin="85,56,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ID" HorizontalAlignment="Left" Height="23" Margin="231,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="85,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NAME" HorizontalAlignment="Left" Height="23" Margin="231,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="GPA:" HorizontalAlignment="Left" Margin="85,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="GPA" HorizontalAlignment="Left" Height="23" Margin="231,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="DOB:" HorizontalAlignment="Left" Margin="85,170,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="DOB1" HorizontalAlignment="Left" Height="23" Margin="231,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="273,248,0,0" VerticalAlignment="Top" Width="345" Height="140" FontSize="72" Background="#FF928FDC" Click="Button_Click" IsDefault="True" FontFamily="Showcard Gothic"/>
+        <TextBlock x:Name="OUTPUT" HorizontalAlignment="Left" Margin="427,56,0,0" TextWrapping="Wrap" Text="Hello world!" VerticalAlignment="Top" Height="137" Width="225"/>
+    </Grid>
+</Window>
